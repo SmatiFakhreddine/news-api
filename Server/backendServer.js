@@ -6,7 +6,7 @@ import env from "dotenv";
 const app = express();
 env.config();
 const port = process.env.PORT;
-const API_URL = process.env.API_URL;
+const API_URL = "https://news-api-gamma-eosin.vercel.app/";
 
 app.use(express.static("public"));
 
